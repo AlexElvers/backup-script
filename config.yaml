@@ -1,0 +1,16 @@
+# uuids of partitions for storing snapshots
+drives:
+  - 00000000-0000-0000-0000-000000000000
+  - 00000000-0000-0000-0000-000000000000
+# paths to backup
+paths:
+  - /etc
+  - /home/alex
+excludes:
+  - .local/share/Steam/SteamApps/
+  - .local/share/Steam/ubuntu12_32/steam-runtime/
+  - .local/share/Steam/ubuntu12_32/steam-runtime.old/
+  - .config/opera/Pepper Data
+  - "*cache"
+  - "*Cache"
+  - __pycache__
